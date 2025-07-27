@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost/project"
+    username: root
+    password: 1234
+    configuration:
+      maximum-pool-size: 30
