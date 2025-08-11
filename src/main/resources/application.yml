@@ -5,3 +5,7 @@ spring:
     password: 1234
     configuration:
       maximum-pool-size: 30
+
+  jpa:
+    hibernate:
+      ddl-auto: create
